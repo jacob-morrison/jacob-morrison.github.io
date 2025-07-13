@@ -2,14 +2,14 @@
   <h3 class="year-header">2025</h3>
   <ul class="publications-list">
     <li class="publication-item">
-      <span class="publication-title">FlexOLMo: Open Language Models for Flexible Data Use</span>
+      <a href="https://arxiv.org/abs/2507.07024" class="publication-title">FlexOLMo: Open Language Models for Flexible Data Use</a>
       <div class="authors">Weijia Shi, Akshita Bhagia, Kevin Farhat, Niklas Muennighoff, Evan Pete Walsh, <strong>Jacob Morrison</strong>, Dustin Schwenk, Shayne Longpre, Jake Poznanski, Allyson Ettinger, Daogao Liu, Margaret Li, Mike Lewis, Wen-tau Yih, Dirk Groeneveld, Luca Soldaini, Kyle Lo, Noah A. Smith, Luke Zettlemoyer, Pang Wei Koh, Hannaneh Hajishirzi, Ali Farhadi, Sewon Min</div>
       <div class="venue">
         <em>Under review</em>
       </div>
     </li>
     <li class="publication-item">
-      <span class="publication-title">RewardBench 2: Advancing Reward Model Evaluation</span>
+      <a href="https://arxiv.org/abs/2506.01937" class="publication-title">RewardBench 2: Advancing Reward Model Evaluation</a>
       <div class="authors">Saumya Malik, Valentina Pyatkin, Sander Land, <strong>Jacob Morrison</strong>, Noah A. Smith, Hannaneh Hajishirzi, Nathan Lambert</div>
       <div class="venue">
         <em>Under review</em>
@@ -39,7 +39,7 @@
     </li>
 
     <li class="publication-item">
-      <span class="publication-title">Holistically Evaluating the Environmental Impact of Creating Language Models</span>
+      <a href="https://arxiv.org/abs/2503.05804" class="publication-title">Holistically Evaluating the Environmental Impact of Creating Language Models</a>
       <div class="authors"><strong>Jacob Morrison</strong>, Clara Na, Jared Fernandez, Tim Dettmers, Emma Strubell, Jesse Dodge</div>
       <div class="venue">
         <em>ICLR 2025</em>

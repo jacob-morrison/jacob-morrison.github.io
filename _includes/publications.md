@@ -72,9 +72,9 @@
 
     <li class="publication-item">
       <a href="https://arxiv.org/abs/2406.07835" class="publication-title">SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature</a>
-      <div class="authors">David Wadden*, Kejian Shi*, <strong>Jacob Morrison</strong>, Aakanksha Naik, Shruti Singh, Nitzan Barzilay, Kyle Lo, Tom Hope, Luca Soldaini, Shannon Zejiang Shen, Doug Downey, Hannaneh Hajishirzi, Arman Cohan</div>
+      <div class="authors">David Wadden*, Kejian Shi*, <strong>Jacob Morrison</strong>, Alan Li, Aakanksha Naik, Shruti Singh, Nitzan Barzilay, Kyle Lo, Tom Hope, Luca Soldaini, Shannon Zejiang Shen, Doug Downey, Hannaneh Hajishirzi, Arman Cohan</div>
       <div class="venue">
-        <em>arXiv</em>
+        <em>EMNLP 2025, NeurIPS 2024 Workshop on Foundation Models for Science</em>
         <a href="https://arxiv.org/pdf/2406.07835">paper</a>
       </div>
     </li>

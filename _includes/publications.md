@@ -5,7 +5,8 @@
       <a href="https://arxiv.org/abs/2507.07024" class="publication-title">FlexOLMo: Open Language Models for Flexible Data Use</a>
       <div class="authors">Weijia Shi, Akshita Bhagia, Kevin Farhat, Niklas Muennighoff, Evan Pete Walsh, <strong>Jacob Morrison</strong>, Dustin Schwenk, Shayne Longpre, Jake Poznanski, Allyson Ettinger, Daogao Liu, Margaret Li, Mike Lewis, Wen-tau Yih, Dirk Groeneveld, Luca Soldaini, Kyle Lo, Noah A. Smith, Luke Zettlemoyer, Pang Wei Koh, Hannaneh Hajishirzi, Ali Farhadi, Sewon Min</div>
       <div class="venue">
-        <em>Under review</em>
+        <em>NeurIPS 2025</em>
+        <span class="award">🔦 Spotlight Paper 🔦</span>
       </div>
     </li>
     <li class="publication-item">

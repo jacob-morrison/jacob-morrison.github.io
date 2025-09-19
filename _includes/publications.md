@@ -7,9 +7,6 @@
       <div class="venue">
         <em>NeurIPS 2025</em>
         <span class="award">🔦 Spotlight Paper 🔦</span>
-      </div>
-      <div class="venue">
-        <em>COLM 2025</em>
         <a href="https://arxiv.org/abs/2507.07024">paper</a>
         <a href="https://allenai.org/blog/flexolmo">blog</a>
       </div>

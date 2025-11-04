@@ -2,6 +2,16 @@
   <h3 class="year-header">2025</h3>
   <ul class="publications-list">
     <li class="publication-item">
+      <a href="https://www.datocms-assets.com/64837/1762260899-olmoearth.pdf" class="publication-title">OlmoEarth</a>
+      <div class="authors">OlmoEarth Team, Yawen Zhang, Gabriel Tseng, Joseph Redmon, Henry Herzog, Favyen Bastani, Hadrien Sablon, Ryan Park, <strong>Jacob Morrison</strong>, Alex Buraczynski, Karen Farley, Josh Hansen, Andrew Howe, Patrick Johnson, Mark Otterlee, Hunter Pitelka, Rachel Ratner, Ted Schmitt, Chris Wilhelm, Sebastian Wood, Mike Jacobi, Hannah Kerner, Evan Shelhamer, Ali Farhadi, Ranjay Krishna, Patrick Beukema</div>
+      <div class="venue">
+        <em>Technical Report</em>
+        <a href="https://www.datocms-assets.com/64837/1762260899-olmoearth.pdf">paper</a>
+        <a href="https://huggingface.co/collections/allenai/olmoearth">Models</a>
+        <a href="https://olmoearth.allenai.org/">Platform</a>
+      </div>
+    </li>
+    <li class="publication-item">
       <a href="https://arxiv.org/abs/2507.07024" class="publication-title">FlexOLMo: Open Language Models for Flexible Data Use</a>
       <div class="authors">Weijia Shi, Akshita Bhagia, Kevin Farhat, Niklas Muennighoff, Evan Pete Walsh, <strong>Jacob Morrison</strong>, Dustin Schwenk, Shayne Longpre, Jake Poznanski, Allyson Ettinger, Daogao Liu, Margaret Li, Mike Lewis, Wen-tau Yih, Dirk Groeneveld, Luca Soldaini, Kyle Lo, Noah A. Smith, Luke Zettlemoyer, Pang Wei Koh, Hannaneh Hajishirzi, Ali Farhadi, Sewon Min</div>
       <div class="venue">

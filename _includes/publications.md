@@ -2,6 +2,16 @@
   <h3 class="year-header">2025</h3>
   <ul class="publications-list">
     <li class="publication-item">
+      <a href="https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf" class="publication-title">Olmo 3</a>
+      <div class="authors">OLMo Team, Allyson Ettinger*, Amanda Bertsch*, Bailey Kuehl*, David Graham*, David Heineman*, Dirk Groeneveld*, Faeze Brahman*, Finbarr Timbers*, Hamish Ivison*, <strong>Jacob Morrison*</strong>, Jake Poznanski*, Kyle Lo*, Luca Soldaini*, Matt Jordan*, Mayee Chen*, Michael Noukhovitch*, Nathan Lambert*, Pete Walsh*, Pradeep Dasigi*, Robert Berry*, Saumya Malik*, Saurabh Shah*, Scott Geng*, Shane Arora*, Shashank Gupta*, Taira Anderson*, Teng Xiao*, Tyler Murray*, Tyler Romero*, Victoria Graf*, Akari Asai, Akshita Bhagia, Alex Wettig, Alisa Liu, Aman Rangapur, Chloe Anastasiades, Costa Huang, Dustin Schwenk, Harsh Trivedi, Ian Magnusson, Jaron Lochner, Jiacheng Liu, Lj Miranda, Maarten Sap, Malia Morgan, Michael Schmitz, Michal Guerquin, Michael Wilson, Regan Huff, Ronan Le Bras, Rui Xin, Rulin Shao, Sam Skjonsberg, Shannon Zejiang Shen, Shuyue Stella Li, Tucker Wilde, Valentina Pyatkin, Will Merrill, Yapei Chang, Yuling Gu, Zhiyuan Zeng, Ashish Sabharwal, Luke Zettlemoyer, Pang Wei Koh , Ali Farhadi, Noah A.~Smith*, Hannaneh Hajishirzi*</div>
+      <div class="venue">
+        <em>Technical Report</em>
+        <a href="https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf">paper</a>
+        <a href="https://huggingface.co/collections/allenai/olmo-3">Models & Data</a>
+        <a href="https://playground.allenai.org/">Demo</a>
+      </div>
+    </li>
+    <li class="publication-item">
       <a href="https://www.datocms-assets.com/64837/1762260899-olmoearth.pdf" class="publication-title">OlmoEarth</a>
       <div class="authors">OlmoEarth Team, Yawen Zhang, Gabriel Tseng, Joseph Redmon, Henry Herzog, Favyen Bastani, Hadrien Sablon, Ryan Park, <strong>Jacob Morrison</strong>, Alex Buraczynski, Karen Farley, Josh Hansen, Andrew Howe, Patrick Johnson, Mark Otterlee, Hunter Pitelka, Rachel Ratner, Ted Schmitt, Chris Wilhelm, Sebastian Wood, Mike Jacobi, Hannah Kerner, Evan Shelhamer, Ali Farhadi, Ranjay Krishna, Patrick Beukema</div>
       <div class="venue">

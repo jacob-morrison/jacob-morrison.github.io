@@ -35,7 +35,7 @@
       <a href="https://arxiv.org/abs/2506.01937" class="publication-title">RewardBench 2: Advancing Reward Model Evaluation</a>
       <div class="authors">Saumya Malik, Valentina Pyatkin, Sander Land, <strong>Jacob Morrison</strong>, Noah A. Smith, Hannaneh Hajishirzi, Nathan Lambert</div>
       <div class="venue">
-        <em>Under review</em>
+        <em>ICLR 2026</em>
       </div>
     </li>
     <li class="publication-item">

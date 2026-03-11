@@ -1,4 +1,16 @@
 <div class="publications">
+  <h3 class="year-header">2026</h3>
+  <ul class="publications-list">
+    <li class="publication-item">
+      <a href="https://allenai.org/papers/olmo-hybrid" class="publication-title">OLMo Hybrid: From Theory to Practice</a>
+      <div class="authors">William Merrill, Yanhong Li, Tyler Romero, Anej Svete, Caia Costello, Pradeep Dasigi, Dirk Groeneveld, David Heineman, Bailey Kuehl, Nathan Lambert, Chuan Li, Kyle Lo, Saumya Malik, DJ Matusz, Benjamin Minixhofer, <strong>Jacob Morrison</strong>, Luca Soldaini, Finbarr Timbers, Pete Walsh, Noah A. Smith, Hannaneh Hajishirzi, Ashish Sabharwal</div>
+      <div class="venue">
+        <em>Technical Report</em>
+        <a href="https://allenai.org/papers/olmo-hybrid">paper</a>
+        <a href="https://allenai.org/blog/olmohybrid">blog</a>
+      </div>
+    </li>
+  </ul>
   <h3 class="year-header">2025</h3>
   <ul class="publications-list">
     <li class="publication-item">

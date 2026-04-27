@@ -3,7 +3,7 @@
   <ul class="publications-list">
     <li class="publication-item">
       <a href="https://arxiv.org/abs/2604.18473" class="publication-title">Train Separately, Merge Together: Modular Post-Training with Mixture-of-Experts</a>
-      <div class="authors"><strong>Jacob Morrison*</strong>, Sanjay Adhikesaven, Akshita Bhagia, Matei Zaharia, Noah A. Smith, Sewon Min</div>
+      <div class="authors"><strong>Jacob Morrison*</strong>, Sanjay Adhikesaven*, Akshita Bhagia, Matei Zaharia, Noah A. Smith, Sewon Min</div>
       <div class="venue">
         <em>Under review, COLM 2026</em>
         <a href="https://arxiv.org/abs/2604.18473">paper</a>

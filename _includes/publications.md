@@ -2,6 +2,14 @@
   <h3 class="year-header">2026</h3>
   <ul class="publications-list">
     <li class="publication-item">
+      <a href="https://arxiv.org/pdf/2605.01158" class="publication-title">The Hidden Cost of Thinking: Energy Use and Environmental Impact of LMs Beyond Pretraining</a>
+      <div class="authors"><strong>Jacob Morrison</strong>, Noah A. Smith, Emma Strubell</div>
+      <div class="venue">
+        <em>Under review, COLM 2026</em>
+        <a href="https://arxiv.org/pdf/2605.01158">paper</a>
+      </div>
+    </li>
+    <li class="publication-item">
       <a href="https://arxiv.org/abs/2604.18473" class="publication-title">Train Separately, Merge Together: Modular Post-Training with Mixture-of-Experts</a>
       <div class="authors"><strong>Jacob Morrison*</strong>, Sanjay Adhikesaven*, Akshita Bhagia, Matei Zaharia, Noah A. Smith, Sewon Min</div>
       <div class="venue">

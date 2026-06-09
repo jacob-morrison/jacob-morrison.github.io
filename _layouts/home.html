@@ -1,332 +1,81 @@
 ---
-layout: single
-classes: wide
-toc: false
-author_profile: false
-sidebar:
-  nav: false
+# Standalone layout — does not extend a parent layout.
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jacob Morrison</title>
+  <meta name="description" content="Jacob Morrison is a Ph.D. student at the University of Washington and student researcher at Ai2, building open language models and studying the environmental and societal impacts of AI.">
+  {% include site_head.html %}
+</head>
+<body>
 
-<style>
-  .custom-grid {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-  
-  .profile-column {
-    position: relative;  /* Instead of fixed */
-    text-align: center;
-  }
-  
-  .profile-image {
-    width: 100%;
-    max-width: 240px;
-    border-radius: 4px;
-    text-align: center;
-  }
-  
-  .profile-info {
-    margin-top: 1rem;
-    text-align: center;
-  }
-  
-  .profile-info p {
-    margin-bottom: 0.5rem;
-  }
-  
-  .social-links {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0;
-    text-align: center;
-  }
-  
-  .social-links li {
-    margin-bottom: 0.5rem;
-  }
+<main>
+  <div class="page-grid">
 
-  .social-icons {
-    .fas, .fab, .far, .ai {
-      margin: 0 15px; 
-      font-size: 1.5rem;
-      width: 1.5rem;
-      height: 1.5rem;
-      line-height: 1.5rem;
-      text-align: center;
-    }
-  }
+    {% include site_sidebar.html %}
 
-  /* Optional: Add hover effect */
-  .fas:hover, .fab:hover {
-    color: #0366d6;   /* Changes color on hover */
-    transition: color 0.2s ease;
-  }
+    <section class="content">
 
-  .social-icons {
-    text-align: center;  /* This centers the icons */
-    /* OR using flexbox: */
-    /* display: flex;
-    justify-content: center;
-    gap: 15px; */
-  }
-
-  h1, .page__title {
-    margin-top: 10px;  /* Removes top margin */
-    padding-top: 0; /* Removes top padding if any exists */
-  }
-
-  /* Removes the horizontal line */
-  /* h2 {
-    border-bottom: none;
-  } */
-  
-  .page__content h2,
-  .archive__item-body h2 {
-      /* border-bottom: none; */
-      padding-top: 30px; /* Removes top padding if any exists */
-      margin-top: 0;  /* Removes top margin */
-      padding-bottom: 0px; /* Removes top padding if any exists */
-      margin-bottom: 0;  /* Removes top margin */
-  }
-
-  /* Headers */
-  h1, h2, h3, h4, h5, h6 {
-      font-family: Georgia, Times, "Times New Roman", serif;
-  }
-
-  /* Body text */
-  body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
-
-  /* Optional: if you want to adjust the font weights */
-  h1 { font-weight: 400; }
-  h2 { font-weight: 400; }
-  body { font-weight: 400; }
-
-  a {
-    color: #52958b;  /* Or similar teal color */
-  }
-
-  .page__footer {
-    display: none;
-  }
-
-  /* Research dropdown styles */
-  .research-dropdown {
-    margin-bottom: 0.25rem;
-  }
-
-  .research-dropdown summary {
-    cursor: pointer;
-    font-size: 1rem;
-    color: #333;
-    list-style: none;
-    position: relative;
-    padding-left: 1.2rem;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-  }
-
-  .research-dropdown summary::-webkit-details-marker {
-    display: none;
-  }
-
-  .research-dropdown summary::before {
-    content: "▶";
-    position: absolute;
-    left: 0;
-    font-size: 0.7rem;
-    transition: transform 0.2s ease;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .research-dropdown[open] summary::before {
-    transform: translateY(-50%) rotate(90deg);
-  }
-
-  .research-dropdown .dropdown-content {
-    margin-top: 0.5rem;
-    margin-left: 0;
-    padding: 0.75rem;
-    border: 1px solid #e1e4e8;
-    border-radius: 4px;
-    background-color: #f8f9fa;
-  }
-
-  .research-dropdown .dropdown-content h4 {
-    margin: 0 0 0.5rem 0;
-    padding-bottom: 0.3rem;
-    font-size: 0.9rem;
-    font-weight: normal;
-    border-bottom: 1px solid #ddd;
-    font-family: Georgia, Times, "Times New Roman", serif;
-  }
-
-  .research-dropdown .dropdown-content ul {
-    margin: 0;
-    padding-left: 1.2rem;
-  }
-
-  .research-dropdown .dropdown-content li {
-    margin-bottom: 0.3rem;
-    font-size: 0.85rem;
-    color: #666;
-    line-height: 1.4;
-  }
-
-  .research-dropdown .dropdown-content li:last-child {
-    margin-bottom: 0;
-  }
-
-  .research-dropdown .dropdown-content a {
-    color: navy;
-    text-decoration: none;
-  }
-
-  .research-dropdown .dropdown-content a:hover {
-    text-decoration: underline;
-  }
-
-  .research-interests {
-    margin-top: 1rem;
-  }
-
-  @media (max-width: 768px) {
-    .custom-grid {
-      grid-template-columns: 1fr;
-    }
-    
-    .profile-column {
-      text-align: center;
-    }
-  }
-  </style>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  
-  <div class="custom-grid">
-    <div class="profile-column">
-      <img src="assets/images/test-pic.png" alt="Jacob Morrison" class="profile-image">
-      <div class="profile-info">
-        <!-- <p>Jacob Morrison</p> -->
+      <div class="hero">
         <p>
-          Ph.D. Student @ UW
-          <br>
-          Student Researcher @ Ai2
+          Hi! I work on making language models more capable and more open — and on understanding their environmental and societal impacts. I'm a Ph.D. student at the <a href="https://www.cs.washington.edu/">University of Washington</a>, where I'm advised by <a href="https://nasmith.github.io/">Noah Smith</a> and supported by an <a href="https://cra.org/csgrad4us/">NSF Computer Science Graduate Fellowship</a>, and a student researcher on the Open Ecosystem team at <a href="https://allenai.org/">Ai2</a>, where I help build the <a href="https://allenai.org/olmo">Olmo</a> family of fully open language models.
         </p>
-        <!-- <p>📍 Seattle, WA</p> -->
-        <div class="social-icons">
-          <a href="mailto:jacobm@allenai.org"><i class="fas fa-envelope"></i></a> 
-          <!-- <a href="https://twitter.com/jacobcares"><i class="fab fa-twitter"></i></a>  -->
-          <a href="https://bsky.app/profile/jacobcares.bsky.social"><i class="fab fa-bluesky"></i></a>
-          <a href="https://linkedin.com/in/jacob-morrison"><i class="fab fa-linkedin"></i></a>
-          <a href="https://scholar.google.com/citations?user=AZgHehoAAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-        </div>
+        <p>
+          Before my Ph.D., I worked on code generation at <a href="https://x.company/">Google [x]</a> and platform health at Twitter, and in a previous life I was a software engineer at <a href="https://www.tableau.com/">Tableau</a> and <a href="https://marketingplatform.google.com/about/display-video-360/">Google</a>. See my <a href="{{ '/assets/CV-Mar-26.pdf' | relative_url }}">CV</a> for the full story.
+        </p>
       </div>
-    </div>
-    
-    <div class="main-content">
 
-<h1>Jacob Morrison</h1>
-Hi! I'm a Ph.D. student at UW, where I'm advised by <a href="https://nasmith.github.io/">Noah Smith</a> and am supported by an <a href="https://cra.org/csgrad4us/">NSF Computer Science Graduate Fellowship</a>. I'm also a student researcher on the
-<a href="https://allennlp.org/">AllenNLP</a> team at <a href="https://allenai.org/">Ai2</a>, where I mainly work on <a href="https://allenai.org/olmo">language modeling</a>.
-<br>
-<br>    
-I've previously worked on code generation at <a href="https://x.company/">Google [x]</a> and platform health at Twitter, and in a previous life I was a software engineer at <a href="https://www.tableau.com/">Tableau</a> and <a href="https://marketingplatform.google.com/about/display-video-360/">Google</a>. See my <a href="/assets/CV-Mar-26.pdf">CV</a> for more details.
-    
-<h2>Research</h2>
-<br>
-<!-- My research is generally focused on making modern language models broadly useful and reliable, and I've recently been focused on improving model capabilities through post-training. I'm also a strong supporter of open science, and I've contributed to openly released artefacts including <a href="https://allenai.org/blog/tulu-3">Tulu 3</a>, <a href="https://huggingface.co/spaces/allenai/reward-bench">RewardBench</a>, <a href="https://arxiv.org/abs/2402.00159">Dolma</a>, and <a href="https://arxiv.org/abs/2402.00838">OLMo</a>, <a href="https://allenai.org/olmo">OLMo 2</a>, and <a href="https://arxiv.org/abs/2409.02060">OLMoE</a>, with more coming soon. -->
-My research is generally focused on making language models broadly useful and reliable, and understanding their downstream societal impacts.
-In addition to my research I also spend a portion of my time helping policymakers understand and address the societal impacts of AI.
-<!-- I previously served on the City of Seattle's Generative AI Policy Advisory Group, and I'm currently serving on the Education and Workforce Development Subcommittee of the Washington State AI Task Force. -->
+      <section>
+        <h2>Research</h2>
+        <p class="research-statement">
+          My research focuses on making language models broadly useful and reliable. Recently, that has meant data-centric methods for improving model capabilities — including the <a href="https://allenai.org/tulu">Tülu</a> post-training recipes and the <a href="https://huggingface.co/spaces/allenai/reward-bench">RewardBench</a> evaluations for reward models — and <a href="https://arxiv.org/abs/2503.05804">measuring the environmental footprint</a> of developing language models, from hardware manufacturing through deployment. Underneath all of it is a commitment to open science: I'm a core contributor to Ai2's <a href="https://allenai.org/olmo">Olmo</a> project, which releases strong language models together with the training data, code, and infrastructure behind them.
+        </p>
+      </section>
 
-<br><br>
-A few selected interests of mine and relevant publications:
+      <section>
+        <h2>Policy</h2>
+        <p class="policy-intro">
+          I also work directly with policymakers to help ground AI policy in how the technology actually works. I've served as a public policy lead at <a href="https://allenai.org/">Ai2</a> and as a member of the <a href="https://www.seattle.gov/tech">City of Seattle</a>'s Generative AI Policy Advisory Group, and I've written on the legal and regulatory questions raised by generative AI — from legal risk and liability to the First Amendment — which you can find on my <a href="{{ '/publications/' | relative_url }}">publications page</a>.
+        </p>
+      </section>
 
-<div class="research-interests">
-  <details class="research-dropdown">
-    <summary>data-centric methods for improving model capabilities</summary>
-    <div class="dropdown-content">
-      <h4><i>Selected Work</i></h4>
-      <ul>
-        <li><i>Developing new post-training recipes and methods: </i><a href="https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf">Olmo 3</a>, <a href="https://arxiv.org/abs/2411.15124">Tülu 3</a>, <a href="https://arxiv.org/abs/2410.12937">Merge to Learn</a></li>
-        <li><i>New and interesting model evaluations: </i><a href="https://huggingface.co/spaces/allenai/reward-bench">RewardBench</a>, <a href="https://arxiv.org/abs/2506.01937">RewardBench 2</a>, <a href="https://arxiv.org/abs/2112.04139">Bidimensional Leaderboards</a></li>
-      </ul>
-    </div>
-  </details>
+      <section>
+        <h2>Selected awards</h2>
+        <ul class="awards-list">
+          <li><span class="award-date">May 2025</span>Mercor Graduate Fellowship Finalist</li>
+          <li><span class="award-date">Aug 2024</span>ACL Theme Paper Award</li>
+          <li><span class="award-date">Aug 2024</span>ACL Best Resource Paper Award</li>
+          <li><span class="award-date">Apr 2024</span>GeekWire Innovation of the Year</li>
+          <li><span class="award-date">Aug 2023</span>NSF Computer Science Graduate Fellowship</li>
+        </ul>
+      </section>
 
-  <details class="research-dropdown">
-    <summary>open science and democratizing access to large models</summary>
-    <div class="dropdown-content">
-      <h4><i>Selected Work</i></h4>
-      <ul>
-        <li><i>Openly releasing large(-ish) models and datasets:</i> <a href="https://arxiv.org/abs/2402.00838">OLMo</a>, <a href="https://arxiv.org/abs/2501.00656">OLMo 2</a>, <a href="https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf">Olmo 3</a>, <a href="https://www.datocms-assets.com/64837/1762260899-olmoearth.pdf">OlmoEarth</a></li>
-        <li><i>Exploring alternative model architectures: </i> <a href="https://arxiv.org/abs/2409.02060">OLMoE</a>, <a href="https://arxiv.org/abs/2507.07024">FlexOLMo</a></li>
-      </ul>
-    </div>
-  </details>
+      <section>
+        <div class="section-head">
+          <h2>Selected publications</h2>
+          <a class="section-head-link" href="{{ '/publications/' | relative_url }}">See all &rarr;</a>
+        </div>
+        {% include publications_selected.html %}
+      </section>
 
-  <details class="research-dropdown">
-    <summary>environmental and societal impacts of AI systems</summary>
-    <div class="dropdown-content">
-      <h4><i>Selected Work</i></h4>
-      <ul>
-        <li><i>Measuring the environmental impact of training LLMs: </i> <a href="https://arxiv.org/abs/2503.05804">[1] (ICLR 2025 Spotlight)</a>, <a href="https://arxiv.org/pdf/2402.00838">[2]</a>, <a href="https://arxiv.org/pdf/2501.00656">[3]</a>, <a href="https://www.datocms-assets.com/64837/1762260899-olmoearth.pdf">[4]</a></li>
-        <li><i>Exploring AI legal risks and questions: </i> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4964912">[1]</a>, <a href="https://arxiv.org/abs/2407.01968">[2]</a>, <a href="https://arxiv.org/abs/2404.09479">[3]</a></li>
-      </ul>
-    </div>
-  </details>
+    </section>
 
-  <!-- <details class="research-dropdown">
-    <summary>Improving evaluation methods for language models</summary>
-    <div class="dropdown-content">
-      <ul>
-        <li><a href="https://arxiv.org/abs/2112.04139">Bidimensional Leaderboards</a> - Generate and evaluate language models hand in hand</li>
-        <li><a href="https://arxiv.org/abs/2111.08940">Transparent Human Evaluation for Image Captioning</a> - Methods for more reliable human evaluation</li>
-        <li><a href="https://arxiv.org/abs/2406.07835">SciRIFF</a> - Resource to enhance instruction-following over scientific literature</li>
-      </ul>
-    </div>
-  </details> -->
-</div>
+  </div>
+</main>
 
-<h2>Selected Awards & Fellowships</h2>
-<ul>
-  <li>May 2025: Mercor Graduate Fellowship Finalist</li>
-  <li>August 2024: ACL Theme Paper Award</li>
-  <li>August 2024: ACL Best Resource Paper Award</li>
-  <li>April 2024: GeekWire Innovation of the Year</li>
-  <li>August 2023: NSF Computer Science Graduate Fellowship</li>
-</ul>
-<!-- <h2>Service</h2>
-<br>
-In my free time, I serve in a number of positions in the UW Alumni Association including as a
-<a href="https://uwimpact.org/district-dawgs/">District Dawg</a>, on the
-<a href="https://www.washington.edu/alumni/about-uwaa/gold-alumni-council/">GOLD Council</a>,
-and as an early career mentor. I'm also on the <a
-  href="https://www.seattle.gov/neighborhoods1/programs-and-services/major-institutions-and-schools/major-institution-advisory-committees/university-of-washington">City
-  University Community Advisory Committee</a>,
-where I help advise on major capital projects on UW's campus as well as in the greater University District. -->
-<h2>Publications</h2>
-<br>
-{% include publications.md %}
+<footer class="page-footer">
+  © {{ site.time | date: "%Y" }} Jacob Morrison · built with <a href="https://jekyllrb.com/">Jekyll</a>
+</footer>
 
-<!-- Google tag (gtag.js) -->
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9FXNR7SR6G"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
-
   gtag('config', 'G-9FXNR7SR6G');
 </script>
 
-</div>
-</div>
+</body>
+</html>

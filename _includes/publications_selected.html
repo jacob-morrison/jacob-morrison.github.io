@@ -1,0 +1,14 @@
+{%- comment -%}
+  Renders papers marked `selected: true` in _data/publications.yml,
+  sorted by their `order` field (lower = earlier).
+  Used on the home page.
+{%- endcomment -%}
+{%- assign selected = site.data.publications | where: "selected", true | sort: "order" -%}
+<div class="publications publications--selected">
+  <p class="pub-legend"><em>* indicates equal contribution</em></p>
+  <ul class="publications-list">
+    {%- for pub in selected %}
+    {% include pub_item.html pub=pub short=true %}
+    {%- endfor %}
+  </ul>
+</div>

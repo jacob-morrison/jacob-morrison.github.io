@@ -1,0 +1,25 @@
+{%- comment -%}
+  Renders one publication from _data/publications.yml.
+  Usage: {% include pub_item.html pub=pub %}
+{%- endcomment -%}
+<li class="publication-item">
+  <a href="{{ include.pub.url }}" class="publication-title">{{ include.pub.title }}</a>
+  {%- if include.short and include.pub.authors_short -%}
+  <div class="authors">{{ include.pub.authors_short }}</div>
+  {%- else -%}
+  <div class="authors">{{ include.pub.authors }}</div>
+  {%- endif -%}
+  {%- for venue in include.pub.venues %}
+  <div class="venue">
+    <em>{{ venue.text }}</em>
+    {%- if venue.links -%}
+      {%- for link in venue.links %}
+    <a href="{{ link.url }}">{{ link.label }}</a>
+      {%- endfor -%}
+    {%- endif %}
+    {%- if venue.award %}
+    <span class="award">{{ venue.award }}</span>
+    {%- endif %}
+  </div>
+  {%- endfor %}
+</li>

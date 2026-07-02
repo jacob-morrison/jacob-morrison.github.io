@@ -4,7 +4,7 @@
 # Schema:
 #   date   (required) — display string, e.g. "Jul 2024"
 #   sort   (required) — "YYYY-MM" string used for ordering
-#   kind   (required) — one of: Testimony, Talk, Press, Event
+#   kind   (required) — one of: Briefing, Talk, Press, Event
 #   title  (required) — what it was
 #   where  (required) — venue / outlet
 #   url    (optional) — link for the title
@@ -39,7 +39,7 @@
 
 - date: "Jul 2024"
   sort: "2024-07"
-  kind: "Testimony"
+  kind: "Briefing"
   title: "Technical and Policy Considerations for Generative AI"
   where: "Washington State House Consumer Protection & Business Committee"
 

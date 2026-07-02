@@ -44,7 +44,7 @@
   authors: "William Merrill, Yanhong Li, Tyler Romero, Anej Svete, Caia Costello, Pradeep Dasigi, Dirk Groeneveld, David Heineman, Bailey Kuehl, Nathan Lambert, Chuan Li, Kyle Lo, Saumya Malik, DJ Matusz, Benjamin Minixhofer, <strong>Jacob Morrison</strong>, Luca Soldaini, Finbarr Timbers, Pete Walsh, Noah A. Smith, Hannaneh Hajishirzi, Ashish Sabharwal"
   year: 2026
   venues:
-    - text: "Technical Report"
+    - text: "Under review, COLM 2026"
       links:
         - { label: "paper", url: "https://allenai.org/papers/olmo-hybrid" }
         - { label: "blog", url: "https://allenai.org/blog/olmohybrid" }
@@ -70,7 +70,7 @@
   authors: "OlmoEarth Team, Yawen Zhang, Gabriel Tseng, Joseph Redmon, Henry Herzog, Favyen Bastani, Hadrien Sablon, Ryan Park, <strong>Jacob Morrison</strong>, Alex Buraczynski, Karen Farley, Josh Hansen, Andrew Howe, Patrick Johnson, Mark Otterlee, Hunter Pitelka, Rachel Ratner, Ted Schmitt, Chris Wilhelm, Sebastian Wood, Mike Jacobi, Hannah Kerner, Evan Shelhamer, Ali Farhadi, Ranjay Krishna, Patrick Beukema"
   year: 2025
   venues:
-    - text: "Technical Report"
+    - text: "CVPR 2026"
       links:
         - { label: "paper", url: "https://www.datocms-assets.com/64837/1762260899-olmoearth.pdf" }
         - { label: "Models", url: "https://huggingface.co/collections/allenai/olmoearth" }
@@ -93,6 +93,8 @@
   year: 2025
   venues:
     - text: "ICLR 2026"
+      links:
+        - { label: "paper", url: "https://arxiv.org/pdf/2506.01937" }
 
 - title: "2 OLMo 2 Furious"
   url: "https://arxiv.org/abs/2501.00656"
@@ -156,13 +158,14 @@
   authors: "David Wadden*, Kejian Shi*, <strong>Jacob Morrison</strong>, Alan Li, Aakanksha Naik, Shruti Singh, Nitzan Barzilay, Kyle Lo, Tom Hope, Luca Soldaini, Shannon Zejiang Shen, Doug Downey, Hannaneh Hajishirzi, Arman Cohan"
   year: 2024
   venues:
-    - text: "EMNLP 2025, NeurIPS 2024 Workshop on Foundation Models for Science"
+    - text: "NeurIPS 2024 Workshop on Foundation Models for Science"
+    - text: "EMNLP 2025"
       links:
         - { label: "paper", url: "https://arxiv.org/pdf/2406.07835" }
 
-- title: "RewardBench: A Benchmark for Evaluating Reward Models"
+- title: "RewardBench: Evaluating Reward Models for Language Modeling"
   url: "https://huggingface.co/spaces/allenai/reward-bench"
-  authors: "Nathan Lambert, Valentina Piyatkin, <strong>Jacob Morrison</strong>, LJ Miranda, Bill Yuchen Lin, Khyathi Chandu, Tom Zick, Yejin Choi, Noah A. Smith, Hannaneh Hajishirzi"
+  authors: "Nathan Lambert, Valentina Pyatkin, <strong>Jacob Morrison</strong>, LJ Miranda, Bill Yuchen Lin, Khyathi Chandu, Tom Zick, Yejin Choi, Noah A. Smith, Hannaneh Hajishirzi"
   year: 2024
   venues:
     - text: "Findings of NAACL 2025"
@@ -190,6 +193,7 @@
     - text: "Journal of Law and Technology at Texas"
       links:
         - { label: "paper", url: "https://www.arxiv.org/abs/2407.01968" }
+        - { label: "pdf", url: "/assets/Unsettled-Law-2024.pdf" }
 
 - title: "A Legal Risk Taxonomy for Generative Artificial Intelligence"
   url: "https://arxiv.org/abs/2404.09479"
@@ -199,6 +203,7 @@
     - text: "arXiv preprint"
       links:
         - { label: "paper", url: "https://arxiv.org/pdf/2404.09479" }
+        - { label: "pdf", url: "/assets/GenAI_Legal_Risk_Taxonomy.pdf" }
 
 - title: "OLMo: Accelerating the Science of Language Models"
   url: "https://arxiv.org/abs/2402.00838"

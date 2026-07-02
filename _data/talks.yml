@@ -21,6 +21,7 @@
   kind: "Press"
   title: "Why is Everyone So Wrong About AI Water Use??"
   where: "Hank Green (YouTube)"
+  url: "https://www.youtube.com/watch?v=H_c6MWk7PQc"
   note: "over 5.4M views"
 
 - date: "Nov 2025"
@@ -34,6 +35,7 @@
   kind: "Press"
   title: "A new kind of AI model gives data owners more control"
   where: "Wired"
+  url: "https://www.wired.com/story/flexolmo-ai-model-lets-data-owners-take-control/"
 
 - date: "Jul 2024"
   sort: "2024-07"
@@ -52,3 +54,4 @@
   kind: "Event"
   title: "Future of AI Forum, organized with U.S. Senator Maria Cantwell's office"
   where: "covered by GeekWire"
+  url: "https://www.geekwire.com/2023/tech-ai-policy-new-frontiers-cantwell/"

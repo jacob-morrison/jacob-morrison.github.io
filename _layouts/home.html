@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
   <title>Jacob Morrison</title>
-  <meta name="description" content="Jacob Morrison is a Ph.D. student at the University of Washington and student researcher at Ai2, building open language models and studying the environmental and societal impacts of AI.">
+  <meta name="description" content="Jacob Morrison is a Ph.D. student at the University of Washington and researcher at Ai2 working on open language models (Olmo, Tülu), the environmental impacts of AI, and AI law and policy.">
   {% include site_head.html %}
 </head>
 <body>
@@ -19,24 +19,36 @@
 
       <div class="hero">
         <p>
-          Hi! I work on making language models more capable and more open — and on understanding their environmental and societal impacts. I'm a Ph.D. student at the <a href="https://www.cs.washington.edu/">University of Washington</a>, where I'm advised by <a href="https://nasmith.github.io/">Noah Smith</a> and supported by an <a href="https://cra.org/csgrad4us/">NSF Computer Science Graduate Fellowship</a>, and a student researcher on the Open Ecosystem team at <a href="https://allenai.org/">Ai2</a>, where I help build the <a href="https://allenai.org/olmo">Olmo</a> family of fully open language models.
+          Hi! I'm a Ph.D. student at the <a href="https://www.cs.washington.edu/">University of Washington</a>, where I'm advised by <a href="https://nasmith.github.io/">Noah Smith</a> and supported by an <a href="https://cra.org/csgrad4us/">NSF Computer Science Graduate Fellowship</a>. I'm also a student researcher on the Open Ecosystem team at <a href="https://allenai.org/">Ai2</a>, where I mainly work on <a href="https://allenai.org/olmo">language modeling</a>.
+          <!-- When Madrona starts (Jul 2026), append to the sentence above:
+            , and an AI Fellow at <a href="https://www.madrona.com/">Madrona Venture Group</a>.
+          -->
+          <!-- Before Meta starts (Sep 2026), add:
+            In September I'm joining Meta's <a href="https://ai.meta.com/research/">Fundamental AI Research (FAIR)</a> team in Seattle as a visiting researcher.
+            Once it starts, switch to something like: I'm also a visiting researcher at Meta's Fundamental AI Research (FAIR) team in Seattle.
+          -->
         </p>
         <p>
-          Before my Ph.D., I worked on code generation at <a href="https://x.company/">Google [x]</a> and platform health at Twitter, and in a previous life I was a software engineer at <a href="https://www.tableau.com/">Tableau</a> and <a href="https://marketingplatform.google.com/about/display-video-360/">Google</a>. See my <a href="{{ '/assets/CV-Mar-26.pdf' | relative_url }}">CV</a> for the full story.
+          Before my Ph.D., I worked on code generation at <a href="https://x.company/">Google [x]</a> and platform health at Twitter, and in a previous life I was a software engineer at <a href="https://www.tableau.com/">Tableau</a> and <a href="https://marketingplatform.google.com/about/display-video-360/">Google</a>. See my <a href="{{ '/assets/CV-Jul-26.pdf' | relative_url }}">CV</a> for more details.
         </p>
       </div>
 
       <section>
-        <h2>Research</h2>
-        <p class="research-statement">
-          My research focuses on making language models broadly useful and reliable. Recently, that has meant data-centric methods for improving model capabilities — including the <a href="https://allenai.org/tulu">Tülu</a> post-training recipes and the <a href="https://huggingface.co/spaces/allenai/reward-bench">RewardBench</a> evaluations for reward models — and <a href="https://arxiv.org/abs/2503.05804">measuring the environmental footprint</a> of developing language models, from hardware manufacturing through deployment. Underneath all of it is a commitment to open science: I'm a core contributor to Ai2's <a href="https://allenai.org/olmo">Olmo</a> project, which releases strong language models together with the training data, code, and infrastructure behind them.
-        </p>
-      </section>
+        <h2>What I work on</h2>
 
-      <section>
-        <h2>Policy</h2>
-        <p class="policy-intro">
-          I also work directly with policymakers to help ground AI policy in how the technology actually works. I've served as a public policy lead at <a href="https://allenai.org/">Ai2</a> and as a member of the <a href="https://www.seattle.gov/tech">City of Seattle</a>'s Generative AI Policy Advisory Group, and I've written on the legal and regulatory questions raised by generative AI — from legal risk and liability to the First Amendment — which you can find on my <a href="{{ '/publications/' | relative_url }}">publications page</a>.
+        <h3>Language modeling</h3>
+        <p class="research-statement">
+          I'm a core contributor to the <a href="https://allenai.org/olmo">Olmo</a> model series at Ai2, where much of my work is on data-centric methods for improving model capabilities.
+        </p>
+
+        <h3>Environmental &amp; societal impacts of AI</h3>
+        <p class="research-statement">
+          I also study what it costs to build and run language models, in energy, water, and carbon, from <a href="https://arxiv.org/abs/2503.05804">hardware manufacturing through deployment</a>. More recently that includes the <a href="https://arxiv.org/pdf/2605.01158">added footprint of reasoning models</a>.
+        </p>
+
+        <h3>AI law &amp; policy</h3>
+        <p class="research-statement">
+          I spend part of my time helping policymakers understand and address the impacts of AI. I've served as a public policy lead at <a href="https://allenai.org/">Ai2</a> and as a member of the City of Seattle's Generative AI Policy Advisory Group, and organized a <a href="https://www.geekwire.com/2023/tech-ai-policy-new-frontiers-cantwell/">forum on the Future of AI</a> with U.S. Senator Maria Cantwell's office. I've also written about legal questions raised by generative AI, such as liability, legal risk, and the First Amendment. You can find that work on my <a href="{{ '/publications/' | relative_url }}">publications page</a>.
         </p>
       </section>
 
@@ -57,6 +69,11 @@
           <a class="section-head-link" href="{{ '/publications/' | relative_url }}">See all &rarr;</a>
         </div>
         {% include publications_selected.html %}
+      </section>
+
+      <section>
+        <h2>Talks &amp; press</h2>
+        {% include talks_selected.html %}
       </section>
 
     </section>

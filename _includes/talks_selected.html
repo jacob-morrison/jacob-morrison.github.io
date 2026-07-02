@@ -1,0 +1,16 @@
+{%- comment -%}
+  Renders _data/talks.yml, newest first. Used on the home page.
+{%- endcomment -%}
+{%- assign talks = site.data.talks | sort: "sort" | reverse -%}
+<ul class="talks-list">
+  {%- for t in talks %}
+  <li>
+    <span class="talk-date">{{ t.date }}</span>
+    <span class="talk-body">
+      <span class="talk-kind talk-kind--{{ t.kind | downcase }}">{{ t.kind }}</span>
+      {% if t.url %}<a href="{{ t.url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}
+      <span class="talk-where">{{ t.where }}{% if t.note %} ({{ t.note }}){% endif %}</span>
+    </span>
+  </li>
+  {%- endfor %}
+</ul>

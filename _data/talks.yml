@@ -1,0 +1,57 @@
+# Talks, press & testimony highlights, rendered on the home page
+# (newest first via the `sort` key).
+#
+# Schema:
+#   date   (required) — display string, e.g. "Jul 2024"
+#   sort   (required) — "YYYY-MM" string used for ordering
+#   kind   (required) — one of: Briefing, Talk, Press, Event
+#   title  (required) — what it was
+#   where  (required) — venue / outlet
+#   url    (optional) — link for the title
+#   note   (optional) — short parenthetical, e.g. "over 5.4M views"
+
+- date: "Apr 2026"
+  sort: "2026-04"
+  kind: "Talk"
+  title: "Ecological Impacts of AI"
+  where: "Seattle University School of Law"
+
+- date: "Dec 2025"
+  sort: "2025-12"
+  kind: "Press"
+  title: "Why is Everyone So Wrong About AI Water Use??"
+  where: "Hank Green (YouTube)"
+  url: "https://www.youtube.com/watch?v=H_c6MWk7PQc"
+  note: "over 5.4M views"
+
+- date: "Nov 2025"
+  sort: "2025-11"
+  kind: "Talk"
+  title: "RewardBench: Evaluating Reward Models for Language Modeling"
+  where: "Georgetown Law"
+
+- date: "Jul 2025"
+  sort: "2025-07"
+  kind: "Press"
+  title: "A new kind of AI model gives data owners more control"
+  where: "Wired"
+  url: "https://www.wired.com/story/flexolmo-ai-model-lets-data-owners-take-control/"
+
+- date: "Jul 2024"
+  sort: "2024-07"
+  kind: "Briefing"
+  title: "Technical and Policy Considerations for Generative AI"
+  where: "Washington State House Consumer Protection & Business Committee"
+
+- date: "Nov 2023"
+  sort: "2023-11"
+  kind: "Talk"
+  title: "Responsible, Real World AI Development and Deployment"
+  where: "State of Washington AI Community of Practice"
+
+- date: "Aug 2023"
+  sort: "2023-08"
+  kind: "Event"
+  title: "Future of AI Forum, organized with U.S. Senator Maria Cantwell's office"
+  where: "covered by GeekWire"
+  url: "https://www.geekwire.com/2023/tech-ai-policy-new-frontiers-cantwell/"

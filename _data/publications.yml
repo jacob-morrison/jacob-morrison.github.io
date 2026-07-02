@@ -39,7 +39,7 @@
         - { label: "paper", url: "https://arxiv.org/abs/2604.18473" }
         - { label: "blog", url: "https://allenai.org/blog/bar" }
 
-- title: "Olmo Hybrid: From Theory to Practice"
+- title: "Olmo Hybrid: From Theory to Practice and Back"
   url: "https://allenai.org/papers/olmo-hybrid"
   authors: "William Merrill, Yanhong Li, Tyler Romero, Anej Svete, Caia Costello, Pradeep Dasigi, Dirk Groeneveld, David Heineman, Bailey Kuehl, Nathan Lambert, Chuan Li, Kyle Lo, Saumya Malik, DJ Matusz, Benjamin Minixhofer, <strong>Jacob Morrison</strong>, Luca Soldaini, Finbarr Timbers, Pete Walsh, Noah A. Smith, Hannaneh Hajishirzi, Ashish Sabharwal"
   year: 2026
@@ -181,7 +181,7 @@
   selected: true
   order: 6
   venues:
-    - text: "First Amendment Law Review (University of North Carolina), Spring 2025"
+    - text: "First Amendment Law Review (University of North Carolina), 2024"
       links:
         - { label: "paper", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4964912" }
 

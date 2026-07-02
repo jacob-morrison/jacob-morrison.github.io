@@ -9,7 +9,7 @@
     <span class="talk-body">
       <span class="talk-kind talk-kind--{{ t.kind | downcase }}">{{ t.kind }}</span>
       {% if t.url %}<a href="{{ t.url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}
-      <span class="talk-where">&mdash; {{ t.where }}{% if t.note %} ({{ t.note }}){% endif %}</span>
+      <span class="talk-where">{{ t.where }}{% if t.note %} ({{ t.note }}){% endif %}</span>
     </span>
   </li>
   {%- endfor %}

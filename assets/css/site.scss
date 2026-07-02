@@ -366,7 +366,12 @@ p { margin: 0 0 1em; }
   color: var(--accent);
   border-color: var(--accent);
 }
-.talk-where { color: var(--ink-soft); font-size: 0.85rem; }
+.talk-where {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  margin-top: 0.1rem;
+}
 
 /* ───────── Footer ───────── */
 

@@ -23,7 +23,7 @@
   selected: true
   order: 5
   venues:
-    - text: "Under review, COLM 2026"
+    - text: "COLM 2026"
       links:
         - { label: "paper", url: "https://arxiv.org/pdf/2605.01158" }
 
@@ -34,7 +34,7 @@
   selected: true
   order: 3
   venues:
-    - text: "Under review, COLM 2026"
+    - text: "COLM 2026"
       links:
         - { label: "paper", url: "https://arxiv.org/abs/2604.18473" }
         - { label: "blog", url: "https://allenai.org/blog/bar" }
@@ -44,7 +44,7 @@
   authors: "William Merrill, Yanhong Li, Tyler Romero, Anej Svete, Caia Costello, Pradeep Dasigi, Dirk Groeneveld, David Heineman, Bailey Kuehl, Nathan Lambert, Chuan Li, Kyle Lo, Saumya Malik, DJ Matusz, Benjamin Minixhofer, <strong>Jacob Morrison</strong>, Luca Soldaini, Finbarr Timbers, Pete Walsh, Noah A. Smith, Hannaneh Hajishirzi, Ashish Sabharwal"
   year: 2026
   venues:
-    - text: "Under review, COLM 2026"
+    - text: "COLM 2026"
       links:
         - { label: "paper", url: "https://allenai.org/papers/olmo-hybrid" }
         - { label: "blog", url: "https://allenai.org/blog/olmohybrid" }
